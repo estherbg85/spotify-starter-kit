@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+   width: 15%;
+   height: 10%;
+   margin-left: 10px;
+  
+}
+.menu {
+    font-size: 10px;
+    color: white;
+    display: flex;
+    margin-left: 25px;
+}
+
+.header {
+    padding: 5px;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.principal-container {
+    padding-left: 20px;
+    background-color: rgb(71, 139, 228);
+    color: white;
+    background-position: center;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+.girl {
+    flex-wrap: wrap;
+
+}
+h1.principal-title {
+   margin: 0px;
+   padding-top: 15%;
+   font-size: 50px;
+   padding-bottom: 15px;
+}
+p.principal-body {
+    font-size: 20px;
+
+}
+p.principal-footer {
+    font-size: 10px;
+}
+button {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 420px;
+    background-color: rgb(29, 173, 77);
+    color: white;
+    border-radius: 18px; 
+    border: none;
+    text-align: center;   
+}
+.premium {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: 45px;
+    text-align: center;
+}
+.display {
+    font-size: 15px;
+    margin-left: 20px;
+    display: flex;
+    padding-top: 50px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.logos {
+    width: 20%;
+    margin-right: 45px; 
+}
+li {
+    padding-top: 15px;
+    list-style: none;
+    text-align: left;
+   
+}
+.footer {
+    font-size: 10px;
+    background-color: black;
+    height: 125px;
+    color: white;
+    padding: 20px;
+}
+
+.display-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    padding-right: 20px;
+    padding-bottom: 25px;
+    margin-right: 20px; 
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+}
+/*
+.links li {
+    padding-top: 0;
+}
+*/
+
+.legal {
+    padding-right: 25px;
+}
+.img {
+    text-align: right;
+}
+
+.coin {
+    width: 30px;
+    padding-left: 20px;
+}
+
+.copyright {
+    padding-top: 15px;
+}
+
+ul.menu {
+    display: none;
+  }
+  
+input:checked  ~ ul.menu {
+    display:block;
+}
+input.menu {
+    display: none;
+
+}
+label.menu{
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+@media (480px < width < 1001px) {
+    .principal-container {
+        background-image: url(../images/premium_dancer.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 300px;
+        
+    }
+    .registro {
+        border-left: 1px solid white;
+        padding-left: 25px;
+    }
+    label.menu {
+    display: none;
+    
+}
+  
+    ul.menu {
+        display: flex;
+        font-size: 12px;
+        padding-right: 20px;
+       
+       
+    }
+
+    ul.menu li a{
+        color: white;
+        padding-right: 25px;
+    }
+    button {
+        height: 30px;
+        width: 150px;
+    }
+    
+    .premium article {
+        display: grid;
+        grid-template-columns: auto auto;
+    }  
+    .display-footer {
+        display: flex;
+
+    }
+    .copyright {
+        margin-top: -12px;
+    }
+    .information {
+        padding-top: 74px;
+
+    }
+    .footer {
+        margin-bottom: 20px;
+        padding-bottom: 90px;
+        height: 10px;
+    }
+    .links {
+        padding-bottom: 0px;
+    }
+}
+@media  (width > 1000px) {
+
+
+
+
+
+}
